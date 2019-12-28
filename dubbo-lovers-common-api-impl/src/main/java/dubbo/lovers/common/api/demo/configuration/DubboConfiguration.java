@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @Description:
  */
 @Configuration
-@EnableDubbo(scanBasePackages = "dubbo.lovers.common.api.demo.impl")
 public class DubboConfiguration {
 
 }
